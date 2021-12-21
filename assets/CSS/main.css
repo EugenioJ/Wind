@@ -1,0 +1,358 @@
+main{
+    box-shadow: 1px 5px 5px black;
+  
+    
+
+}
+
+.planos{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0px 0px 50px 0px;
+   
+    
+
+    
+   
+}
+.planos li{
+    min-height: 560px;
+    width: 300px;
+    border: 1px rgb(165, 164, 164)  solid;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 5px 3px rgb(185, 184, 184);
+    background-color: rgb(235, 235, 235);
+    background-position:bottom;
+    background-repeat: no-repeat;
+    text-shadow: 1px 1px 1px #3D1801;
+
+    
+    
+
+}
+main{
+    background-color: #0f0701;
+}
+.planos ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.planos h2{
+    font-size: 5em;
+    color: #DE5804;
+    font-family: roboto;
+    text-shadow: 1px 1px 3px #3D1801;
+   
+    
+}
+.planos h3{
+    font-size: 3em;
+    font-family: roboto;
+    color: #fc6404;
+    padding: 0 0 10px 0;
+    
+
+
+    
+}
+.planos p{
+    font-family: roboto;
+    color:#FC6404;
+}
+.valor p{
+    font-size: 3em;
+    font-family: roboto;
+    color: #FC6404;
+    text-shadow: 1px 1px 3px black;
+
+}
+main svg{
+    width: 30px;
+    height: 30px;
+    padding-right: 5px;
+}
+
+.promo{
+    max-width: 500px;
+}
+main li div{
+    align-items: center;
+    
+    
+    
+}
+.planos{
+    
+   
+}
+
+.planos a{
+    font-family: roboto;
+    border: 1px #FE1E08 solid;
+    
+    padding: 15px 45px 15px 45px;
+    
+    border-radius: 25px;
+    background-color:  #FE1E08;
+    text-shadow: 2px 2px 5px #0f0701;
+    box-shadow: 3px 5px 5px #ee7e74;
+    color: white;
+    
+}
+.grad{
+  
+    margin: 0;
+}
+
+.center{
+    width: 100%;
+    display: flex;
+
+    margin: 0px;
+    padding: 0px;
+}
+.center img{
+    height: 500px;
+    width: 100vw;
+
+}
+.banner{
+    margin-top: 1px;
+    box-shadow: 3px 1px 5px black;
+}
+.banner img{
+    
+}
+main{
+    position: relative;
+    z-index: 100;
+}
+
+.sobre{
+    text-align: center;
+    font-family: roboto;
+    padding-top: 50px;
+    border-bottom: 1px 1px black solid;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    
+   
+    
+
+}
+
+.sobre > div{
+    display: flex;
+    justify-content: center;
+}
+.sobre h2, .sobre h1{
+    color: white;
+    text-shadow: 1px 1px 1px #3D1801;
+    
+}
+.sobre h1{
+    font-size: 65px;
+    align-self: center;
+    color: rgb(252, 100, 4);
+    border: none;
+    text-align: center;
+}
+.sobre p{
+    color: #939293;
+    text-shadow: 1px 1px 1px rgb(211, 208, 208);
+    font-size: 20px;
+    margin: 15px 15px 15px 0;
+   
+}
+h3{
+    color: rgb(252, 100, 4);
+}
+picture{
+    display: flex;
+    justify-content: flex-end;
+}
+section{
+    font-family: roboto;
+}
+.att, .empresarial{
+    flex: 1;
+
+   
+}
+.empresarial picture img{
+    width: 500px;
+}
+
+.att > div{
+    background-color: rgb(235, 235, 235);
+    padding: 15px;
+    border-radius: 5px;
+    margin: 5px;
+    border-left: 5px rgb(252, 100, 4) solid;
+    
+}
+.empresarial > div{
+    background-color: rgb(235, 235, 235);
+    padding: 15px;
+    border-radius: 5px;
+    margin: 5px;
+    flex: 1;
+    border-right: 5px rgb(252, 100, 4) solid;
+}
+.att svg, .empresarial svg{
+    padding: 10px;
+    margin-right: 15px;
+    box-sizing: content-box;
+    border-radius: 100%;
+}
+.banner_n2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.banner_n2 img{
+    width: 100%;
+
+    margin-bottom: 50px;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    
+    
+    
+    
+}
+.formu{
+    width: 60%;
+    background-color:rgb(250, 237, 229) ;
+    padding: 15px;
+    border-radius: 15px;
+    border: solid rgb(250, 237, 229) 1px;
+    text-align: center;
+    background-image: url(/Wind-Telecom/assets/images/svg-form.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    box-shadow: 2px 2px 5px rgb(83, 83, 83);
+    
+    
+    
+
+    
+    
+   
+}
+form > div{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: 10px
+}
+.formu input{   
+    height: 35px;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+    border: 1px rgb(10, 10, 10) solid;
+    border-radius: 5px;
+    border-color: rgb(250, 237, 229);
+    padding: 20px;
+    font-family: roboto;
+    font-size: 15px;
+
+    
+    
+}
+
+::-webkit-input-placeholder  { 
+    color:rgb(209, 144, 104); 
+}
+input:-moz-placeholder { 
+    color:rgb(252, 100, 4); 
+}
+textarea:-moz-placeholder { 
+    color:rgb(252, 100, 4); 
+}
+
+.msg input{
+    height: 100px;
+
+}
+.banner_n2-section{
+    
+ 
+    
+}
+.suporte{
+    display: flex;
+    padding: 50px 0px 50px 0px;
+    align-items: center;
+    
+}
+.suporte p{
+    margin: 0px 0px 10px 0px;
+}
+
+.suporte svg{
+    width: 60%;
+    height: 100%;
+    fill: black;
+}
+.suporte h2{
+    font-size: 5em;
+    color: #DE5804;
+    font-family: roboto;
+    text-shadow: 1px 1px 3px #3D1801;
+}
+
+.formu h2{
+    color:rgb(252, 100, 4);
+    margin: 10px 5px 0px 0px;
+    font-size: 35px;
+    font-family: roboto;
+}
+#enviar{
+    background-color: rgb(252, 100, 4);
+    border: 1px rgb(180, 179, 179) solid;
+    height: 45px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: larger;
+    font-family: roboto;
+    color: white;
+    box-shadow: 3px 5px 5px rgb(180, 179, 179);
+    
+    
+}
+.svg-back{
+    background-image: url(/Wind-Telecom/assets/images/wave.svg);
+    background-repeat: no-repeat;
+
+}
+body{
+    background-color: #fafafa;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+.contato{
+    background-color: rgb(51, 51, 51);
+    
+}
+.tel, .adress{
+    border-right: 1px black solid;
+    padding: 15px;
+  
+}
+.tel h3, .tel h4, .tel p, .tel a, .adress h3, .adress p{
+    padding: 5px;
+    color: rgb(218, 214, 213);
+    font-family: roboto
+}
