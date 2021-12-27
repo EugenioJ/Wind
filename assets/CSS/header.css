@@ -2,8 +2,6 @@ header{
     position:fixed;
     top: 1%;
     width: 100%;
-    
-
     z-index: 1000;
    
 }
@@ -13,22 +11,27 @@ header{
     
 }
 header nav ul{
-    align-items: center;
+    display: flex;
+    justify-content: flex-end;
     width: 100%;
     flex-wrap: wrap;
 }
 header nav ul li{
     display: flex;
     font-size: 20px;
+    width: fit-content;
+    padding-left: 40px;
+    
     font-family: roboto;
     align-items: center;
+    justify-content: flex-end;
     
   
 }
 header li, header a{
     display: flex;
     align-items: center;
-    padding: 0 25px 0 25px;
+    
     margin-bottom: 0px;
     text-transform: uppercase;
     text-align: center;
@@ -36,7 +39,7 @@ header li, header a{
     
 }
 header a:hover{
-    border-bottom: 3px solid #000;
+    color:#fc6404
 
 }
 .h-1{
@@ -84,15 +87,10 @@ header a:hover{
 }
 header .cont-head a{
     height: 100%;
-    box-sizing: content-box;
-
     color: #fc6404;
     border: none;
     text-shadow: 1px 2px 3px #000000;
-
-   
-  
-   
+    margin-right: 20px
 }
 header .menu{
     display: flex;
@@ -100,6 +98,7 @@ header .menu{
 header .cont-head{
     display: flex;
     justify-content: flex-end;
+    
     
 }
 header .logo-h{
