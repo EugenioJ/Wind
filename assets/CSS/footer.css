@@ -1,14 +1,55 @@
+
 .contato{
-    background-color: rgb(51, 51, 51);
+    background-color: #121214;
     
 }
 .tel, .adress{
-    border-right: 1px black solid;
     padding: 15px;
   
 }
-.tel h3, .tel h4, .tel p, .tel a, .adress h3, .adress p{
-    padding: 5px;
-    color: rgb(218, 214, 213);
-    font-family: roboto
+
+footer h3{
+    font-size: 25px;
+    padding: 15px 0px;
 }
+footer h4{
+    font-size: 20px;
+    padding: 15px 0px;
+    color: white;
+}
+footer p{
+    font-size: 16px;
+    padding: 15px 0px;
+}
+footer a{
+    font-size: 18px;
+}
+footer h4{
+    color: white;
+}
+footer p, footer a{
+    color: rgb(139, 139, 139);
+}
+.icon-f img{
+    border-radius: 5px;
+    width: 48px;
+    margin: 0px 5px;
+    transition: all 0.5s;
+}
+.icon-f{
+    border-top: 1px rgb(73, 73, 73) solid;
+    
+    padding: 10px
+
+}
+.icon-f img:hover{
+    background-color: aliceblue;
+    border: white 1px solid;
+    transition: 0.5s;
+    transform: rotate(360deg);
+    border-radius: 50%;
+    
+
+}
+
+

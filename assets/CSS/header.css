@@ -1,12 +1,17 @@
 header{
-    position:fixed;
-    top: 1%;
+    position:absolute;
+    
     width: 100%;
     z-index: 1000;
    
+   
+}
+.container-h{
+    margin: auto auto;
+    width: 90vw;
 }
 .head{
-    background-color: rgba(34,34,34,0.95);
+   
     border-radius: 5px;
     
 }
@@ -39,7 +44,12 @@ header li, header a{
     
 }
 header a:hover{
-    color:#fc6404
+    color:#fc6404;
+    transition:linear;
+    transition-duration: 0.2s;
+    
+    
+    
 
 }
 .h-1{
