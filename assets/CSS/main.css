@@ -43,13 +43,16 @@ main{
     box-shadow: 1px 1px 5px black;
     
 }
-.planos li:hover a{
+.planos li:hover .a-botao{
     box-shadow: 1px 1px 5px black;
 }
 .planos li:hover p{
     color:#fc6404;
     transition: 0.3s;
 
+}
+.full{
+    width: 100%!important;
 }
 .planos a:first-child{
     
@@ -68,10 +71,11 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     
     width: 100%;
 }
-.botao-align a{
+.a-botao{
     font-family: roboto;
     font-size: 20px;
     border: 1px black dotted;
@@ -385,7 +389,7 @@ main{
 }
 .bg-plano{
     background-color: black;
-    width: 100%;
+    width: 100%!important;
     color:#fc6404;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
